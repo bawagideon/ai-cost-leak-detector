@@ -1,0 +1,17 @@
+{
+  "name": "ai-cost-leak-detector",
+  "version": "1.0.0",
+  "description": "Real-time LLM cost accounting middleware that tracks token usage per customer and feature, flagging anomalous recursive cost spikes before an $8,000 OpenAI invoice arrives.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test test/ai-cost-leak-detector.test.js"
+  },
+  "keywords": [
+    "ai-cost-defense",
+    "token-accounting",
+    "llm-observability",
+    "budget-alerts"
+  ],
+  "author": "Gideon Bawa <bawagideon@gmail.com>",
+  "license": "MIT"
+}
